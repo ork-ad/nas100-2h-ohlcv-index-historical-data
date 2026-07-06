@@ -1,6 +1,6 @@
 # NAS100 2h OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_348_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-53_771_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full NAS100 dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 2h OHLCV** for **Nasdaq 100** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`2h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **2,348** `2h` rows in the full archive
+- **Free evaluation sample** on GitHub (`2h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **53,771** `2h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `2h` sample updated in sync
 
-> **Sample on GitHub** · `NAS100_2h.csv` (2,295 rows, `2025-10-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **2,348** `2h` rows (~0.16 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-09-26` → `2026-07-02`.
+> **Sample on GitHub** · `NAS100_2h.csv` (2,295 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **53,771** `2h` rows (~3.11 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2008-08-19` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/nas100-2h-ohlcv-index-his
 |---|--:|---|
 | Instrument | Nasdaq 100 · Stock index | Nasdaq 100 · Stock index |
 | Timeframes | `2h` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 2h rows | 2,295 | **2,348** |
-| Size | 0.16 MB | ~0.16 MB |
-| Period | `2025-10-02` → `2026-07-02` | `2025-09-26` → `2026-07-02` |
+| 2h rows | 2,295 | **53,771** |
+| Size | 0.16 MB | ~3.11 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2008-08-19` → `2026-07-03` |
 | File | `NAS100_2h.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`NAS100_2h.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-02T22:00:00Z | 24925.319 | 24944.439 | 24892.559 | 24943.439 | 13686.0 |
-| 2025-10-03T00:00:00Z | 24943.439 | 24981.06 | 24935.059 | 24980.06 | 20237.0 |
-| 2025-10-03T02:00:00Z | 24980.06 | 24994.19 | 24965.56 | 24989.56 | 12169.0 |
-| 2025-10-03T04:00:00Z | 24989.56 | 25011.06 | 24985.81 | 24990.56 | 9622.0 |
-| 2025-10-03T06:00:00Z | 24990.56 | 25012.56 | 24975.19 | 25001.19 | 23334.0 |
+| 2025-10-03T16:00:00Z | 24966.186369000003 | 24976.937444000003 | 24744.414194 | 24795.169269 | 212148.0 |
+| 2025-10-03T18:00:00Z | 24795.169269 | 24866.05 | 24747.414494 | 24817.54 | 221406.0 |
+| 2025-10-03T20:00:00Z | 24817.54 | 24827.54 | 24795.29 | 24806.84 | 12960.0 |
+| 2025-10-05T22:00:00Z | 24806.84 | 24917.341485 | 24806.84 | 24897.469498000002 | 29814.0 |
+| 2025-10-06T00:00:00Z | 24897.469498000002 | 24908.220573000002 | 24881.337885 | 24906.720423000002 | 29886.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T14:00:00Z | 30050.36 | 30086.74 | 29405.61 | 29469.61 | 729328.0 |
-| 2026-07-02T16:00:00Z | 29469.61 | 29481.86 | 29122.24 | 29132.36 | 627503.0 |
-| 2026-07-02T18:00:00Z | 29132.36 | 29381.49 | 29124.36 | 29330.11 | 571535.0 |
-| 2026-07-02T20:00:00Z | 29330.11 | 29357.96 | 29307.46 | 29345.78 | 61158.0 |
+| 2026-07-03T08:00:00Z | 29649.2 | 29703.55 | 29632.79 | 29675.55 | 66483.0 |
+| 2026-07-03T10:00:00Z | 29675.55 | 29712.42 | 29664.3 | 29705.2 | 45286.0 |
+| 2026-07-03T12:00:00Z | 29705.2 | 29759.83 | 29680.55 | 29744.2 | 83448.0 |
+| 2026-07-03T14:00:00Z | 29744.2 | 29750.6 | 29689.95 | 29711.2 | 79049.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **NAS100** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **2,348** rows at `2h`, plus all other timeframes in the same ZIP.
+The complete **NAS100** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **53,771** rows at `2h`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full NAS100 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · NAS100 2h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · NAS100 2h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
